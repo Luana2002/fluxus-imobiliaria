@@ -1,8 +1,14 @@
 import React from 'react';
+import { GlobalStyles } from './styles/GlobalStyles';
+import Page from './Components/Page'
 
 function App() {
   return (
-    <h1>Fluxus Imobiliária</h1>
+    <>
+      <Page />
+
+      <GlobalStyles />
+    </>
   );
 }
 
